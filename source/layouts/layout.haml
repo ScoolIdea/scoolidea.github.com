@@ -1,13 +1,14 @@
 !!!
 %html
   %head
+    %base{href: "http://mandaryn.github.io/scool/", target:"_blank"}/
     %meta{content: "text/html; charset=utf-8", "http-equiv" => "Content-Type"}/
     %link{rel: "icon", href: "/favicon.ico", type: "image/x-icon"}/
     %meta{content: "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}/
     / Use title if it's in the page YAML frontmatter
-    %title= current_page.data.title || "School"
-    %meta{content: current_page.data.description || "School", name: "description"}/
-    %meta{content: current_page.data.keywords || "School", name: "keywords"}/
+    %title= current_page.data.title || "Scool"
+    %meta{content: current_page.data.description || "Scool", name: "description"}/
+    %meta{content: current_page.data.keywords || "Scool", name: "keywords"}/
 
     %meta{content: "width=device-width", name: "viewport"}/
     / Place favicon.ico and apple-touch-icon.png in the root directory
