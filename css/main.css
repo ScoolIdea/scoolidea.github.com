@@ -381,19 +381,11 @@ a.current {
   color: #99C755;
 }
 
-.content {
-  width: 100%;
-  padding: 10px;
-  display:table-cell;
-  vertical-align:middle;
-  text-align: center;
-}
-
 .header_column {
   position: fixed;
   height: 100%;
   width: 350px;
-  background: white url("../images/header.png") no-repeat center bottom;
+  background: white url("../img/mlodziez.png") no-repeat center bottom;
 }
 
 .header_column.link_list {
@@ -448,18 +440,26 @@ p {
   margin: 1px;
 }
 
-.tile a.content {
+.tile a {
   display: table-cell;
   text-align: center;
-  vertical-align: bottom;
+  padding-top: 35%;
+  font-size: 24px;
+  line-height: 1;
+  font-weight: bolder;
+  width: 100%;
+  text-align: center;
 }
 
-.tile a.content p {
-  font-size: 14px;
+#idea.tile a {
+  background: url("../img/rece.png") no-repeat center bottom;
+  background-size: 150px 150px;
+  transition: padding-top 1s, background-size 1s;
 }
 
-#idea.tile .content {
-  background: url("../images/idea.png") no-repeat center center;
+#idea.tile a:hover {
+  padding-top: 15%;
+  background-size: 250px 250px;
 }
 
 #groups.tile .content {
