@@ -1,0 +1,129 @@
+@import normalize
+@import boilerplate
+@import fonts
+
+html
+  font-family: 'Museo' sans-serif
+  height: 100%
+  padding: 0px
+  margin: 0px
+
+body
+  min-height: 100%
+  padding: 0px
+  margin: 0px
+  color: #8a8b8a
+  text-align: center
+  background-color: #f1f2f1
+
+a
+  color: #8a8b8a
+  text-decoration: underline
+
+a:visited
+  color: #8a8b8a
+  text-decoration: none
+
+a:hover
+  color: #c1c2c1
+  text-decoration: underline
+
+a.current
+  text-decoration: none
+  color: #73ab4d
+
+.logo, .logo:hover
+  text-decoration: none
+
+.light-gray
+  color: #c1c2c1
+
+.pink
+  color: #e5546a
+
+.green
+  color: #99C755
+
+.header_column
+  position: fixed
+  height: 100%
+  width: 350px
+  background: white url("../img/mlodziez.png") no-repeat center bottom
+
+.header_column .top_text
+  font-weight: lighter
+  font-size: 14px
+
+.business_name
+  font-size: 100px
+  font-weight: lighter
+  margin-top: 30px
+  margin-bottom: 10px
+
+.business_motto
+  font-size: 17px
+  margin: 0px
+
+.business_motto_languages
+  font-size: 24px
+  margin: 0px
+  font-weight: lighter
+
+h4
+  font-size: 22px
+  margin: 6px
+
+p
+  margin: 3px
+  padding: 0px
+
+.content_column
+  display: inline-block
+  margin-left: 351px
+  height: 100%
+
+.tile
+  width: 250px
+  height: 220px
+  float: left
+  display: table
+  background-color: white
+  margin: 1px
+
+  a
+    display: table-cell
+    text-align: center
+    padding-top: 35%
+    font-size: 24px
+    line-height: 1
+    font-weight: bolder
+    width: 100%
+    text-align: center
+
+#idea.tile a
+  background: url("../img/rece.png") no-repeat center bottom
+  background-size: 150px 150px
+  transition: padding-top 1s, background-size 1s
+
+#idea.tile a:hover
+  padding-top: 15%
+  background-size: 250px 250px
+
+#groups.tile .content
+  background: url("../images/grupy.png") no-repeat center center
+
+#pricing.tile .content
+  background: url("../images/platnosci.png") no-repeat center center
+
+#lectors.tile .content
+  background: url("../images/lektorzy.png") no-repeat center center
+
+#signup.tile .content
+  background: url("../images/zapisy.png") no-repeat center center
+
+ul
+  list-style-image: none
+  padding-left: 0px
+
+ul.navigation
+  margin: 50px 0px
