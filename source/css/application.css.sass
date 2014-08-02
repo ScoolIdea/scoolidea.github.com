@@ -77,53 +77,44 @@ p
   margin: 3px
   padding: 0px
 
-.content_column
-  display: inline-block
+.tiles
   margin-left: 351px
-  height: 100%
-
-.tile
-  width: 250px
-  height: 220px
-  float: left
-  display: table
-  background-color: white
-  margin: 1px
 
   a
-    display: table-cell
+    display: block
+    width: 250px
+    height: 220px
+    float: left
+    margin: 1px
     text-align: center
-    padding-top: 35%
     font-size: 24px
     line-height: 1
     font-weight: bolder
-    width: 100%
     text-align: center
 
-#idea.tile a
-  background: url("../img/rece.png") no-repeat center bottom
-  background-size: 150px 150px
-  transition: padding-top 1s, background-size 1s
+    &#idea
+      background: url("../img/rece.png") white no-repeat center bottom
+      background-size: 85%
+      transition: background-size 1s
 
-#idea.tile a:hover
-  padding-top: 15%
-  background-size: 250px 250px
+      .text
+        margin-top: 25%
+        transition: margin-top 1s
 
-#groups.tile .content
-  background: url("../images/grupy.png") no-repeat center center
+      &:hover
+        background-size: 100%
 
-#pricing.tile .content
-  background: url("../images/platnosci.png") no-repeat center center
+        .text
+          margin-top: 15%
 
-#lectors.tile .content
-  background: url("../images/lektorzy.png") no-repeat center center
+  #groups.tile .content
+    background: url("../images/grupy.png") no-repeat center center
 
-#signup.tile .content
-  background: url("../images/zapisy.png") no-repeat center center
+  #pricing.tile .content
+    background: url("../images/platnosci.png") no-repeat center center
 
-ul
-  list-style-image: none
-  padding-left: 0px
+  #lectors.tile .content
+    background: url("../images/lektorzy.png") no-repeat center center
 
-ul.navigation
-  margin: 50px 0px
+  #signup.tile .content
+    background: url("../images/zapisy.png") no-repeat center center
