@@ -288,3 +288,45 @@ p
         .text
           padding-bottom: 70%
           padding-right: 70%
+
+    &#teachers
+      background: url("../img/lektor.png") white no-repeat
+      transition: background-size 1s, background-position 1s
+      background-position: -40px 80px
+
+      .text
+        transition: padding-bottom 1s, padding-left 1s
+
+      &:hover
+        background-position: 20px 20px
+
+        .text
+          padding-bottom: 55%
+          padding-left: 40%
+
+
+    &#gallery
+      &:before
+        content: ""
+        position: absolute
+        width: 200%
+        height: 200%
+        top: -50%
+        left: -50%
+        z-index: -2
+        background: url("../img/aparat.png") white no-repeat
+        transition: background-size 1s, background-position 1s, transform 1s
+        background-position: 220px 240px
+        background-size: 15%
+
+      .text
+        transition: padding-bottom 1s, padding-left 1s
+
+      &:hover
+        &:before
+          background-size: 100%
+          background-position: -50px 150px
+          transform: rotate(30deg)
+
+        .text
+          padding-left: 50%
