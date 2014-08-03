@@ -1096,3 +1096,19 @@ p {
     /* line 331, /Users/manda/projects/school/source/css/application.css.sass */
     .tiles a#gallery:hover .text {
       padding-left: 50%; }
+    /* line 334, /Users/manda/projects/school/source/css/application.css.sass */
+    .tiles a#contact {
+      background: url("../img/telefon.png") white no-repeat;
+      transition: background-size 1s, background-position 1s;
+      background-position: -94px -10px;
+      background-size: 170%; }
+      /* line 340, /Users/manda/projects/school/source/css/application.css.sass */
+      .tiles a#contact .text {
+        transition: padding-bottom 1s, padding-left 1s; }
+      /* line 343, /Users/manda/projects/school/source/css/application.css.sass */
+      .tiles a#contact:hover {
+        background-size: 50%;
+        background-position: 60px 105px; }
+        /* line 347, /Users/manda/projects/school/source/css/application.css.sass */
+        .tiles a#contact:hover .text {
+          padding-bottom: 55%; }
