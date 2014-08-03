@@ -871,7 +871,7 @@ p {
       vertical-align: middle; }
     /* line 105, /Users/manda/projects/school/source/css/application.css.sass */
     .tiles a#idea {
-      background: url("../img/rece.png") transparent no-repeat center bottom;
+      background: url("../img/rece.png") white no-repeat center bottom;
       background-size: 70%;
       transition: background-size 1s; }
       /* line 110, /Users/manda/projects/school/source/css/application.css.sass */
@@ -1039,3 +1039,60 @@ p {
       .tiles a#kids:hover:after {
         background-position: 70% 62%;
         background-size: 45%; }
+    /* line 274, /Users/manda/projects/school/source/css/application.css.sass */
+    .tiles a#signup {
+      background: url("../img/zapisy.png") white no-repeat;
+      background-size: 90%;
+      transition: background-size 1s ease-out, background-position 1s ease-out;
+      background-position: 170px 85px; }
+      /* line 280, /Users/manda/projects/school/source/css/application.css.sass */
+      .tiles a#signup .text {
+        padding-bottom: 0%;
+        transition: padding-bottom 1s ease-out, padding-right 1s ease-out; }
+      /* line 284, /Users/manda/projects/school/source/css/application.css.sass */
+      .tiles a#signup:hover {
+        background-size: 80%;
+        background-position: 30px 20px; }
+        /* line 288, /Users/manda/projects/school/source/css/application.css.sass */
+        .tiles a#signup:hover .text {
+          padding-bottom: 70%;
+          padding-right: 70%; }
+    /* line 292, /Users/manda/projects/school/source/css/application.css.sass */
+    .tiles a#teachers {
+      background: url("../img/lektor.png") white no-repeat;
+      transition: background-size 1s, background-position 1s;
+      background-position: -40px 80px; }
+      /* line 297, /Users/manda/projects/school/source/css/application.css.sass */
+      .tiles a#teachers .text {
+        transition: padding-bottom 1s, padding-left 1s; }
+      /* line 300, /Users/manda/projects/school/source/css/application.css.sass */
+      .tiles a#teachers:hover {
+        background-position: 20px 20px; }
+        /* line 303, /Users/manda/projects/school/source/css/application.css.sass */
+        .tiles a#teachers:hover .text {
+          padding-bottom: 55%;
+          padding-left: 40%; }
+    /* line 309, /Users/manda/projects/school/source/css/application.css.sass */
+    .tiles a#gallery:before {
+      content: "";
+      position: absolute;
+      width: 200%;
+      height: 200%;
+      top: -50%;
+      left: -50%;
+      z-index: -2;
+      background: url("../img/aparat.png") white no-repeat;
+      transition: background-size 1s, background-position 1s, transform 1s;
+      background-position: 220px 240px;
+      background-size: 15%; }
+    /* line 322, /Users/manda/projects/school/source/css/application.css.sass */
+    .tiles a#gallery .text {
+      transition: padding-bottom 1s, padding-left 1s; }
+    /* line 326, /Users/manda/projects/school/source/css/application.css.sass */
+    .tiles a#gallery:hover:before {
+      background-size: 100%;
+      background-position: -50px 150px;
+      transform: rotate(30deg); }
+    /* line 331, /Users/manda/projects/school/source/css/application.css.sass */
+    .tiles a#gallery:hover .text {
+      padding-left: 50%; }
