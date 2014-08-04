@@ -753,14 +753,14 @@ textarea {
   font-weight: lighter;
   font-style: normal; }
 
-/* line 5, /Users/manda/projects/school/source/css/application.css.sass */
+/* line 6, /Users/manda/projects/school/source/css/application.css.sass */
 html {
   font-family: "Museo" sans-serif;
   height: 100%;
   padding: 0px;
   margin: 0px; }
 
-/* line 11, /Users/manda/projects/school/source/css/application.css.sass */
+/* line 12, /Users/manda/projects/school/source/css/application.css.sass */
 body {
   min-height: 100%;
   padding: 0px;
@@ -769,86 +769,86 @@ body {
   text-align: center;
   background-color: #f1f2f1; }
 
-/* line 19, /Users/manda/projects/school/source/css/application.css.sass */
+/* line 20, /Users/manda/projects/school/source/css/application.css.sass */
 a {
   color: #8a8b8a;
   text-decoration: none; }
 
-/* line 23, /Users/manda/projects/school/source/css/application.css.sass */
+/* line 24, /Users/manda/projects/school/source/css/application.css.sass */
 a:visited {
   color: #8a8b8a;
   text-decoration: none; }
 
-/* line 27, /Users/manda/projects/school/source/css/application.css.sass */
+/* line 28, /Users/manda/projects/school/source/css/application.css.sass */
 a:hover {
   color: #c1c2c1;
   text-decoration: none; }
 
-/* line 31, /Users/manda/projects/school/source/css/application.css.sass */
+/* line 32, /Users/manda/projects/school/source/css/application.css.sass */
 a.current {
   text-decoration: none;
   color: #73ab4d; }
 
-/* line 35, /Users/manda/projects/school/source/css/application.css.sass */
+/* line 36, /Users/manda/projects/school/source/css/application.css.sass */
 .logo, .logo:hover {
   text-decoration: none; }
 
-/* line 38, /Users/manda/projects/school/source/css/application.css.sass */
+/* line 39, /Users/manda/projects/school/source/css/application.css.sass */
 .light-gray {
   color: #c1c2c1; }
 
-/* line 41, /Users/manda/projects/school/source/css/application.css.sass */
+/* line 42, /Users/manda/projects/school/source/css/application.css.sass */
 .pink {
   color: #e5546a; }
 
-/* line 44, /Users/manda/projects/school/source/css/application.css.sass */
+/* line 45, /Users/manda/projects/school/source/css/application.css.sass */
 .green {
   color: #99c755; }
 
-/* line 47, /Users/manda/projects/school/source/css/application.css.sass */
+/* line 48, /Users/manda/projects/school/source/css/application.css.sass */
 .header_column {
   position: fixed;
   height: 100%;
   width: 350px;
   background: white url("../img/mlodziez.png") no-repeat center bottom; }
 
-/* line 53, /Users/manda/projects/school/source/css/application.css.sass */
+/* line 54, /Users/manda/projects/school/source/css/application.css.sass */
 .header_column .top_text {
   font-weight: lighter;
   font-size: 14px; }
 
-/* line 57, /Users/manda/projects/school/source/css/application.css.sass */
+/* line 58, /Users/manda/projects/school/source/css/application.css.sass */
 .business_name {
   font-size: 100px;
   font-weight: lighter;
   margin-top: 30px;
   margin-bottom: 10px; }
 
-/* line 63, /Users/manda/projects/school/source/css/application.css.sass */
+/* line 64, /Users/manda/projects/school/source/css/application.css.sass */
 .business_motto {
   font-size: 17px;
   margin: 0px; }
 
-/* line 67, /Users/manda/projects/school/source/css/application.css.sass */
+/* line 68, /Users/manda/projects/school/source/css/application.css.sass */
 .business_motto_languages {
   font-size: 24px;
   margin: 0px;
   font-weight: lighter; }
 
-/* line 72, /Users/manda/projects/school/source/css/application.css.sass */
+/* line 73, /Users/manda/projects/school/source/css/application.css.sass */
 h4 {
   font-size: 22px;
   margin: 6px; }
 
-/* line 76, /Users/manda/projects/school/source/css/application.css.sass */
+/* line 77, /Users/manda/projects/school/source/css/application.css.sass */
 p {
   margin: 3px;
   padding: 0px; }
 
-/* line 80, /Users/manda/projects/school/source/css/application.css.sass */
+/* line 81, /Users/manda/projects/school/source/css/application.css.sass */
 .tiles {
   margin-left: 351px; }
-  /* line 83, /Users/manda/projects/school/source/css/application.css.sass */
+  /* line 84, /Users/manda/projects/school/source/css/application.css.sass */
   .tiles a {
     display: block;
     width: 250px;
@@ -861,36 +861,35 @@ p {
     text-align: center;
     position: relative;
     overflow: hidden; }
-    /* line 96, /Users/manda/projects/school/source/css/application.css.sass */
+    /* line 97, /Users/manda/projects/school/source/css/application.css.sass */
     .tiles a .text {
       width: 100%;
       height: 100%;
       display: table; }
-      /* line 101, /Users/manda/projects/school/source/css/application.css.sass */
+      /* line 102, /Users/manda/projects/school/source/css/application.css.sass */
       .tiles a .text span {
         display: table-cell;
         vertical-align: middle; }
-    /* line 105, /Users/manda/projects/school/source/css/application.css.sass */
+    /* line 106, /Users/manda/projects/school/source/css/application.css.sass */
     .tiles a#idea {
       background: url("../img/rece.png") white no-repeat center bottom;
       background-size: 70%;
-      transition: background-size 1s; }
-      /* line 110, /Users/manda/projects/school/source/css/application.css.sass */
+      transition: all 1s; }
+      /* line 111, /Users/manda/projects/school/source/css/application.css.sass */
       .tiles a#idea .text span {
         padding-bottom: 0%;
-        transition: padding-bottom 1s; }
-      /* line 114, /Users/manda/projects/school/source/css/application.css.sass */
+        transition: all 1s; }
+      /* line 115, /Users/manda/projects/school/source/css/application.css.sass */
       .tiles a#idea:hover {
         background-size: 100%; }
-        /* line 117, /Users/manda/projects/school/source/css/application.css.sass */
+        /* line 118, /Users/manda/projects/school/source/css/application.css.sass */
         .tiles a#idea:hover .text span {
           padding-bottom: 50%; }
-    /* line 121, /Users/manda/projects/school/source/css/application.css.sass */
+    /* line 122, /Users/manda/projects/school/source/css/application.css.sass */
     .tiles a#news .text span {
-      transition: transform 1s; }
-    /* line 124, /Users/manda/projects/school/source/css/application.css.sass */
-    .tiles a#news:before {
-      content: "";
+      transition: all 1s; }
+    /* line 125, /Users/manda/projects/school/source/css/application.css.sass */
+    .tiles a#news .questionmark_1 {
       position: absolute;
       width: 200%;
       height: 200%;
@@ -898,13 +897,16 @@ p {
       left: -50%;
       z-index: -2;
       background: url("../img/pytania.png") white no-repeat;
-      transition: transform 1s, background-size 1s, background-position 1s;
+      transition: all 1s;
       background-size: 40%;
       background-position: 71% 48%;
+      -webkit-transform: rotate(30deg);
+      -moz-transform: rotate(30deg);
+      -ms-transform: rotate(30deg);
+      -o-transform: rotate(30deg);
       transform: rotate(30deg); }
     /* line 138, /Users/manda/projects/school/source/css/application.css.sass */
-    .tiles a#news:after {
-      content: "";
+    .tiles a#news .questionmark_2 {
       position: absolute;
       width: 200%;
       height: 200%;
@@ -912,32 +914,48 @@ p {
       left: -50%;
       z-index: -1;
       background: url("../img/pytania.png") transparent no-repeat;
-      transition: transform 1s, background-size 1s, background-position 1s;
+      transition: all 1s;
       background-size: 40%;
       background-position: 71% 48%;
+      -webkit-transform: rotate(210deg);
+      -moz-transform: rotate(210deg);
+      -ms-transform: rotate(210deg);
+      -o-transform: rotate(210deg);
       transform: rotate(210deg); }
-    /* line 153, /Users/manda/projects/school/source/css/application.css.sass */
+    /* line 152, /Users/manda/projects/school/source/css/application.css.sass */
     .tiles a#news:hover .text span {
+      -webkit-transform: rotate(10deg);
+      -moz-transform: rotate(10deg);
+      -ms-transform: rotate(10deg);
+      -o-transform: rotate(10deg);
       transform: rotate(10deg);
       background-size: 75%; }
-    /* line 156, /Users/manda/projects/school/source/css/application.css.sass */
-    .tiles a#news:hover:before {
+    /* line 155, /Users/manda/projects/school/source/css/application.css.sass */
+    .tiles a#news:hover .questionmark_1 {
+      -webkit-transform: rotate(40deg);
+      -moz-transform: rotate(40deg);
+      -ms-transform: rotate(40deg);
+      -o-transform: rotate(40deg);
       transform: rotate(40deg);
       background-size: 55%;
       background-position: 83% 50%; }
-    /* line 160, /Users/manda/projects/school/source/css/application.css.sass */
-    .tiles a#news:hover:after {
+    /* line 159, /Users/manda/projects/school/source/css/application.css.sass */
+    .tiles a#news:hover .questionmark_2 {
+      -webkit-transform: rotate(220deg);
+      -moz-transform: rotate(220deg);
+      -ms-transform: rotate(220deg);
+      -o-transform: rotate(220deg);
       transform: rotate(220deg);
       background-size: 55%;
       background-position: 83% 50%; }
-    /* line 165, /Users/manda/projects/school/source/css/application.css.sass */
+    /* line 164, /Users/manda/projects/school/source/css/application.css.sass */
     .tiles a#pricing {
       position: relative;
       overflow: hidden; }
-      /* line 169, /Users/manda/projects/school/source/css/application.css.sass */
+      /* line 168, /Users/manda/projects/school/source/css/application.css.sass */
       .tiles a#pricing .text span {
-        transition: padding-bottom 1s, padding-left 1s; }
-      /* line 172, /Users/manda/projects/school/source/css/application.css.sass */
+        transition: all 1s; }
+      /* line 171, /Users/manda/projects/school/source/css/application.css.sass */
       .tiles a#pricing:before {
         content: "";
         position: absolute;
@@ -947,26 +965,34 @@ p {
         left: -34%;
         z-index: -1;
         background: url("../img/moneta.png") white no-repeat center center;
-        transition: transform 1s, top 1s, left 1s;
+        transition: all 1s;
         background-size: 45%;
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
         transform: rotate(90deg); }
-      /* line 186, /Users/manda/projects/school/source/css/application.css.sass */
+      /* line 185, /Users/manda/projects/school/source/css/application.css.sass */
       .tiles a#pricing:hover .text span {
         padding-bottom: 50%;
         padding-left: 50%; }
-      /* line 190, /Users/manda/projects/school/source/css/application.css.sass */
+      /* line 189, /Users/manda/projects/school/source/css/application.css.sass */
       .tiles a#pricing:hover:before {
         top: -49%;
         left: -69%;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
         transform: rotate(0deg); }
-    /* line 195, /Users/manda/projects/school/source/css/application.css.sass */
+    /* line 194, /Users/manda/projects/school/source/css/application.css.sass */
     .tiles a#adults {
       position: relative;
       overflow: hidden; }
-      /* line 199, /Users/manda/projects/school/source/css/application.css.sass */
+      /* line 198, /Users/manda/projects/school/source/css/application.css.sass */
       .tiles a#adults .text span {
-        transition: padding-bottom 1s, padding-left 1s; }
-      /* line 202, /Users/manda/projects/school/source/css/application.css.sass */
+        transition: all 1s; }
+      /* line 201, /Users/manda/projects/school/source/css/application.css.sass */
       .tiles a#adults:before {
         content: "";
         position: absolute;
@@ -976,30 +1002,38 @@ p {
         left: -50%;
         z-index: -1;
         background: url("../img/dorosli.png") white no-repeat;
-        transition: transform 1s, background-size 1s, background-position 1s;
+        transition: all 1s;
         background-size: 50%;
         background-position: 56% 145%;
+        -webkit-transform: rotate(-30deg);
+        -moz-transform: rotate(-30deg);
+        -ms-transform: rotate(-30deg);
+        -o-transform: rotate(-30deg);
         transform: rotate(-30deg); }
-      /* line 217, /Users/manda/projects/school/source/css/application.css.sass */
+      /* line 216, /Users/manda/projects/school/source/css/application.css.sass */
       .tiles a#adults:hover .text span {
         padding-bottom: 55%;
         padding-left: 40%; }
-      /* line 220, /Users/manda/projects/school/source/css/application.css.sass */
+      /* line 219, /Users/manda/projects/school/source/css/application.css.sass */
       .tiles a#adults:hover:before {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
         transform: rotate(0deg);
         background-position: 35% 80%; }
-    /* line 224, /Users/manda/projects/school/source/css/application.css.sass */
+    /* line 223, /Users/manda/projects/school/source/css/application.css.sass */
     .tiles a#kids {
       position: relative;
       overflow: hidden; }
-      /* line 228, /Users/manda/projects/school/source/css/application.css.sass */
+      /* line 227, /Users/manda/projects/school/source/css/application.css.sass */
       .tiles a#kids .text span {
-        transition: padding-bottom 1s, padding-left 1s; }
-        /* line 231, /Users/manda/projects/school/source/css/application.css.sass */
+        transition: all 1s; }
+        /* line 230, /Users/manda/projects/school/source/css/application.css.sass */
         .tiles a#kids .text span .rotator {
           display: block;
-          transition: transform 1s; }
-      /* line 235, /Users/manda/projects/school/source/css/application.css.sass */
+          transition: all 1s; }
+      /* line 234, /Users/manda/projects/school/source/css/application.css.sass */
       .tiles a#kids:before {
         content: "";
         position: absolute;
@@ -1009,10 +1043,10 @@ p {
         left: -50%;
         z-index: -2;
         background: url("../img/dzieci_chlopiec.png") white no-repeat;
-        transition: background-size 1s, background-position 1s;
+        transition: all 1s;
         background-position: 29% 69.5%;
         background-size: 30%; }
-      /* line 248, /Users/manda/projects/school/source/css/application.css.sass */
+      /* line 247, /Users/manda/projects/school/source/css/application.css.sass */
       .tiles a#kids:after {
         content: "";
         position: absolute;
@@ -1022,58 +1056,62 @@ p {
         left: -50%;
         z-index: -1;
         background: url("../img/dzieci_dziewczynka.png") transparent no-repeat;
-        transition: background-size 1s, background-position 1s;
+        transition: all 1s;
         background-position: 70% 64.5%;
         background-size: 40%; }
-      /* line 262, /Users/manda/projects/school/source/css/application.css.sass */
+      /* line 261, /Users/manda/projects/school/source/css/application.css.sass */
       .tiles a#kids:hover .text span {
         padding-bottom: 55%;
         padding-left: 5%; }
-        /* line 265, /Users/manda/projects/school/source/css/application.css.sass */
+        /* line 264, /Users/manda/projects/school/source/css/application.css.sass */
         .tiles a#kids:hover .text span .rotator {
+          -webkit-transform: rotate(710deg);
+          -moz-transform: rotate(710deg);
+          -ms-transform: rotate(710deg);
+          -o-transform: rotate(710deg);
           transform: rotate(710deg); }
-      /* line 267, /Users/manda/projects/school/source/css/application.css.sass */
+      /* line 266, /Users/manda/projects/school/source/css/application.css.sass */
       .tiles a#kids:hover:before {
         background-position: 32% 64%;
         background-size: 45%; }
-      /* line 270, /Users/manda/projects/school/source/css/application.css.sass */
+      /* line 269, /Users/manda/projects/school/source/css/application.css.sass */
       .tiles a#kids:hover:after {
         background-position: 70% 62%;
         background-size: 45%; }
-    /* line 274, /Users/manda/projects/school/source/css/application.css.sass */
+    /* line 273, /Users/manda/projects/school/source/css/application.css.sass */
     .tiles a#signup {
       background: url("../img/zapisy.png") white no-repeat;
       background-size: 90%;
-      transition: background-size 1s ease-out, background-position 1s ease-out;
+      transition: all 1s ease-out;
       background-position: 170px 85px; }
-      /* line 280, /Users/manda/projects/school/source/css/application.css.sass */
+      /* line 279, /Users/manda/projects/school/source/css/application.css.sass */
       .tiles a#signup .text span {
         padding-bottom: 0%;
-        transition: padding-bottom 1s ease-out, padding-right 1s ease-out; }
-      /* line 284, /Users/manda/projects/school/source/css/application.css.sass */
+        transition: all 1s ease-out; }
+      /* line 283, /Users/manda/projects/school/source/css/application.css.sass */
       .tiles a#signup:hover {
         background-size: 80%;
         background-position: 30px 20px; }
-        /* line 288, /Users/manda/projects/school/source/css/application.css.sass */
+        /* line 287, /Users/manda/projects/school/source/css/application.css.sass */
         .tiles a#signup:hover .text span {
           padding-bottom: 70%;
           padding-right: 70%; }
-    /* line 292, /Users/manda/projects/school/source/css/application.css.sass */
+    /* line 291, /Users/manda/projects/school/source/css/application.css.sass */
     .tiles a#teachers {
       background: url("../img/lektor.png") white no-repeat;
-      transition: background-size 1s, background-position 1s;
+      transition: all 1s;
       background-position: -40px 80px; }
-      /* line 297, /Users/manda/projects/school/source/css/application.css.sass */
+      /* line 296, /Users/manda/projects/school/source/css/application.css.sass */
       .tiles a#teachers .text span {
-        transition: padding-bottom 1s, padding-left 1s; }
-      /* line 300, /Users/manda/projects/school/source/css/application.css.sass */
+        transition: all 1s; }
+      /* line 299, /Users/manda/projects/school/source/css/application.css.sass */
       .tiles a#teachers:hover {
         background-position: 20px 20px; }
-        /* line 303, /Users/manda/projects/school/source/css/application.css.sass */
+        /* line 302, /Users/manda/projects/school/source/css/application.css.sass */
         .tiles a#teachers:hover .text span {
           padding-bottom: 55%;
           padding-left: 40%; }
-    /* line 309, /Users/manda/projects/school/source/css/application.css.sass */
+    /* line 308, /Users/manda/projects/school/source/css/application.css.sass */
     .tiles a#gallery:before {
       content: "";
       position: absolute;
@@ -1083,33 +1121,37 @@ p {
       left: -50%;
       z-index: -2;
       background: url("../img/aparat.png") white no-repeat;
-      transition: background-size 1s, background-position 1s, transform 1s;
+      transition: all 1s;
       background-position: 220px 240px;
       background-size: 15%; }
-    /* line 322, /Users/manda/projects/school/source/css/application.css.sass */
+    /* line 321, /Users/manda/projects/school/source/css/application.css.sass */
     .tiles a#gallery .text span {
-      transition: padding-bottom 1s, padding-left 1s; }
-    /* line 326, /Users/manda/projects/school/source/css/application.css.sass */
+      transition: all 1s; }
+    /* line 325, /Users/manda/projects/school/source/css/application.css.sass */
     .tiles a#gallery:hover:before {
       background-size: 100%;
       background-position: -50px 150px;
+      -webkit-transform: rotate(30deg);
+      -moz-transform: rotate(30deg);
+      -ms-transform: rotate(30deg);
+      -o-transform: rotate(30deg);
       transform: rotate(30deg); }
-    /* line 331, /Users/manda/projects/school/source/css/application.css.sass */
+    /* line 330, /Users/manda/projects/school/source/css/application.css.sass */
     .tiles a#gallery:hover .text span {
       padding-left: 50%; }
-    /* line 334, /Users/manda/projects/school/source/css/application.css.sass */
+    /* line 333, /Users/manda/projects/school/source/css/application.css.sass */
     .tiles a#contact {
       background: url("../img/telefon.png") white no-repeat;
-      transition: background-size 1s, background-position 1s;
+      transition: all 1s;
       background-position: -94px -10px;
       background-size: 170%; }
-      /* line 340, /Users/manda/projects/school/source/css/application.css.sass */
+      /* line 339, /Users/manda/projects/school/source/css/application.css.sass */
       .tiles a#contact .text span {
-        transition: padding-bottom 1s, padding-left 1s; }
-      /* line 343, /Users/manda/projects/school/source/css/application.css.sass */
+        transition: all 1s; }
+      /* line 342, /Users/manda/projects/school/source/css/application.css.sass */
       .tiles a#contact:hover {
         background-size: 50%;
         background-position: 60px 105px; }
-        /* line 347, /Users/manda/projects/school/source/css/application.css.sass */
+        /* line 346, /Users/manda/projects/school/source/css/application.css.sass */
         .tiles a#contact:hover .text span {
           padding-bottom: 55%; }
