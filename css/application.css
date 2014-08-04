@@ -850,7 +850,7 @@ p {
   margin-left: 351px; }
   /* line 83, /Users/manda/projects/school/source/css/application.css.sass */
   .tiles a {
-    display: table;
+    display: block;
     width: 250px;
     height: 220px;
     float: left;
@@ -861,31 +861,32 @@ p {
     text-align: center;
     position: relative;
     overflow: hidden; }
-    /* line 97, /Users/manda/projects/school/source/css/application.css.sass */
-    .tiles a:before:before {
-      content: "";
-      background-color: white; }
-    /* line 101, /Users/manda/projects/school/source/css/application.css.sass */
+    /* line 96, /Users/manda/projects/school/source/css/application.css.sass */
     .tiles a .text {
-      display: table-cell;
-      vertical-align: middle; }
+      width: 100%;
+      height: 100%;
+      display: table; }
+      /* line 101, /Users/manda/projects/school/source/css/application.css.sass */
+      .tiles a .text span {
+        display: table-cell;
+        vertical-align: middle; }
     /* line 105, /Users/manda/projects/school/source/css/application.css.sass */
     .tiles a#idea {
       background: url("../img/rece.png") white no-repeat center bottom;
       background-size: 70%;
       transition: background-size 1s; }
       /* line 110, /Users/manda/projects/school/source/css/application.css.sass */
-      .tiles a#idea .text {
+      .tiles a#idea .text span {
         padding-bottom: 0%;
         transition: padding-bottom 1s; }
       /* line 114, /Users/manda/projects/school/source/css/application.css.sass */
       .tiles a#idea:hover {
         background-size: 100%; }
         /* line 117, /Users/manda/projects/school/source/css/application.css.sass */
-        .tiles a#idea:hover .text {
+        .tiles a#idea:hover .text span {
           padding-bottom: 50%; }
     /* line 121, /Users/manda/projects/school/source/css/application.css.sass */
-    .tiles a#news .text {
+    .tiles a#news .text span {
       transition: transform 1s; }
     /* line 124, /Users/manda/projects/school/source/css/application.css.sass */
     .tiles a#news:before {
@@ -916,7 +917,7 @@ p {
       background-position: 71% 48%;
       transform: rotate(210deg); }
     /* line 153, /Users/manda/projects/school/source/css/application.css.sass */
-    .tiles a#news:hover .text {
+    .tiles a#news:hover .text span {
       transform: rotate(10deg);
       background-size: 75%; }
     /* line 156, /Users/manda/projects/school/source/css/application.css.sass */
@@ -934,7 +935,7 @@ p {
       position: relative;
       overflow: hidden; }
       /* line 169, /Users/manda/projects/school/source/css/application.css.sass */
-      .tiles a#pricing .text {
+      .tiles a#pricing .text span {
         transition: padding-bottom 1s, padding-left 1s; }
       /* line 172, /Users/manda/projects/school/source/css/application.css.sass */
       .tiles a#pricing:before {
@@ -950,7 +951,7 @@ p {
         background-size: 45%;
         transform: rotate(90deg); }
       /* line 186, /Users/manda/projects/school/source/css/application.css.sass */
-      .tiles a#pricing:hover .text {
+      .tiles a#pricing:hover .text span {
         padding-bottom: 50%;
         padding-left: 50%; }
       /* line 190, /Users/manda/projects/school/source/css/application.css.sass */
@@ -963,7 +964,7 @@ p {
       position: relative;
       overflow: hidden; }
       /* line 199, /Users/manda/projects/school/source/css/application.css.sass */
-      .tiles a#adults .text {
+      .tiles a#adults .text span {
         transition: padding-bottom 1s, padding-left 1s; }
       /* line 202, /Users/manda/projects/school/source/css/application.css.sass */
       .tiles a#adults:before {
@@ -980,7 +981,7 @@ p {
         background-position: 56% 145%;
         transform: rotate(-30deg); }
       /* line 217, /Users/manda/projects/school/source/css/application.css.sass */
-      .tiles a#adults:hover .text {
+      .tiles a#adults:hover .text span {
         padding-bottom: 55%;
         padding-left: 40%; }
       /* line 220, /Users/manda/projects/school/source/css/application.css.sass */
@@ -992,10 +993,10 @@ p {
       position: relative;
       overflow: hidden; }
       /* line 228, /Users/manda/projects/school/source/css/application.css.sass */
-      .tiles a#kids .text {
+      .tiles a#kids .text span {
         transition: padding-bottom 1s, padding-left 1s; }
         /* line 231, /Users/manda/projects/school/source/css/application.css.sass */
-        .tiles a#kids .text span {
+        .tiles a#kids .text span .rotator {
           display: block;
           transition: transform 1s; }
       /* line 235, /Users/manda/projects/school/source/css/application.css.sass */
@@ -1025,11 +1026,11 @@ p {
         background-position: 70% 64.5%;
         background-size: 40%; }
       /* line 262, /Users/manda/projects/school/source/css/application.css.sass */
-      .tiles a#kids:hover .text {
+      .tiles a#kids:hover .text span {
         padding-bottom: 55%;
         padding-left: 5%; }
         /* line 265, /Users/manda/projects/school/source/css/application.css.sass */
-        .tiles a#kids:hover .text span {
+        .tiles a#kids:hover .text span .rotator {
           transform: rotate(710deg); }
       /* line 267, /Users/manda/projects/school/source/css/application.css.sass */
       .tiles a#kids:hover:before {
@@ -1046,7 +1047,7 @@ p {
       transition: background-size 1s ease-out, background-position 1s ease-out;
       background-position: 170px 85px; }
       /* line 280, /Users/manda/projects/school/source/css/application.css.sass */
-      .tiles a#signup .text {
+      .tiles a#signup .text span {
         padding-bottom: 0%;
         transition: padding-bottom 1s ease-out, padding-right 1s ease-out; }
       /* line 284, /Users/manda/projects/school/source/css/application.css.sass */
@@ -1054,7 +1055,7 @@ p {
         background-size: 80%;
         background-position: 30px 20px; }
         /* line 288, /Users/manda/projects/school/source/css/application.css.sass */
-        .tiles a#signup:hover .text {
+        .tiles a#signup:hover .text span {
           padding-bottom: 70%;
           padding-right: 70%; }
     /* line 292, /Users/manda/projects/school/source/css/application.css.sass */
@@ -1063,13 +1064,13 @@ p {
       transition: background-size 1s, background-position 1s;
       background-position: -40px 80px; }
       /* line 297, /Users/manda/projects/school/source/css/application.css.sass */
-      .tiles a#teachers .text {
+      .tiles a#teachers .text span {
         transition: padding-bottom 1s, padding-left 1s; }
       /* line 300, /Users/manda/projects/school/source/css/application.css.sass */
       .tiles a#teachers:hover {
         background-position: 20px 20px; }
         /* line 303, /Users/manda/projects/school/source/css/application.css.sass */
-        .tiles a#teachers:hover .text {
+        .tiles a#teachers:hover .text span {
           padding-bottom: 55%;
           padding-left: 40%; }
     /* line 309, /Users/manda/projects/school/source/css/application.css.sass */
@@ -1086,7 +1087,7 @@ p {
       background-position: 220px 240px;
       background-size: 15%; }
     /* line 322, /Users/manda/projects/school/source/css/application.css.sass */
-    .tiles a#gallery .text {
+    .tiles a#gallery .text span {
       transition: padding-bottom 1s, padding-left 1s; }
     /* line 326, /Users/manda/projects/school/source/css/application.css.sass */
     .tiles a#gallery:hover:before {
@@ -1094,7 +1095,7 @@ p {
       background-position: -50px 150px;
       transform: rotate(30deg); }
     /* line 331, /Users/manda/projects/school/source/css/application.css.sass */
-    .tiles a#gallery:hover .text {
+    .tiles a#gallery:hover .text span {
       padding-left: 50%; }
     /* line 334, /Users/manda/projects/school/source/css/application.css.sass */
     .tiles a#contact {
@@ -1103,12 +1104,12 @@ p {
       background-position: -94px -10px;
       background-size: 170%; }
       /* line 340, /Users/manda/projects/school/source/css/application.css.sass */
-      .tiles a#contact .text {
+      .tiles a#contact .text span {
         transition: padding-bottom 1s, padding-left 1s; }
       /* line 343, /Users/manda/projects/school/source/css/application.css.sass */
       .tiles a#contact:hover {
         background-size: 50%;
         background-position: 60px 105px; }
         /* line 347, /Users/manda/projects/school/source/css/application.css.sass */
-        .tiles a#contact:hover .text {
+        .tiles a#contact:hover .text span {
           padding-bottom: 55%; }
