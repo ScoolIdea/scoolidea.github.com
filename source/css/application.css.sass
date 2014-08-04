@@ -1,6 +1,7 @@
 @import normalize
 @import boilerplate
 @import fonts
+@import "compass/css3/transform"
 
 html
   font-family: 'Museo' sans-serif
@@ -105,11 +106,11 @@ p
     &#idea
       background: url("../img/rece.png") white no-repeat center bottom
       background-size: 70%
-      transition: background-size 1s
+      transition: all 1s
 
       .text span
         padding-bottom: 0%
-        transition: padding-bottom 1s
+        transition: all 1s
 
       &:hover
         background-size: 100%
@@ -119,10 +120,9 @@ p
 
     &#news
       .text span
-        transition: transform 1s
+        transition: all 1s
 
-      &:before
-        content: ""
+      .questionmark_1
         position: absolute
         width: 200%
         height: 200%
@@ -130,13 +130,12 @@ p
         left: -50%
         z-index: -2
         background: url("../img/pytania.png") white no-repeat
-        transition: transform 1s, background-size 1s, background-position 1s
+        transition: all 1s
         background-size: 40%
         background-position: 71% 48%
-        transform: rotate(30deg)
+        @include transform(rotate(30deg))
 
-      &:after
-        content: ""
+      .questionmark_2
         position: absolute
         width: 200%
         height: 200%
@@ -144,21 +143,21 @@ p
         left: -50%
         z-index: -1
         background: url("../img/pytania.png") transparent no-repeat
-        transition: transform 1s, background-size 1s, background-position 1s
+        transition: all 1s
         background-size: 40%
         background-position: 71% 48%
-        transform: rotate(210deg)
+        @include transform(rotate(210deg))
 
       &:hover
         .text span
-          transform: rotate(10deg)
+          @include transform(rotate(10deg))
           background-size: 75%
-        &:before
-          transform: rotate(40deg)
+        .questionmark_1
+          @include transform(rotate(40deg))
           background-size: 55%
           background-position: 83% 50%
-        &:after
-          transform: rotate(220deg)
+        .questionmark_2
+          @include transform(rotate(220deg))
           background-size: 55%
           background-position: 83% 50%
 
@@ -167,7 +166,7 @@ p
       overflow: hidden
 
       .text span
-        transition: padding-bottom 1s, padding-left 1s
+        transition: all 1s
 
       &:before
         content: ""
@@ -178,9 +177,9 @@ p
         left: -34%
         z-index: -1
         background: url("../img/moneta.png") white no-repeat center center
-        transition: transform 1s, top 1s, left 1s
+        transition: all 1s
         background-size: 45%
-        transform: rotate(90deg)
+        @include transform(rotate(90deg))
 
       &:hover
         .text span
@@ -190,14 +189,14 @@ p
         &:before
           top: -49%
           left: -69%
-          transform: rotate(0deg)
+          @include transform(rotate(0deg))
 
     &#adults
       position: relative
       overflow: hidden
 
       .text span
-        transition: padding-bottom 1s, padding-left 1s
+        transition: all 1s
 
       &:before
         content: ""
@@ -208,17 +207,17 @@ p
         left: -50%
         z-index: -1
         background: url("../img/dorosli.png") white no-repeat
-        transition: transform 1s, background-size 1s, background-position 1s
+        transition: all 1s
         background-size: 50%
         background-position: 56% 145%
-        transform: rotate(-30deg)
+        @include transform(rotate(-30deg))
 
       &:hover
         .text span
           padding-bottom: 55%
           padding-left: 40%
         &:before
-          transform: rotate(0deg)
+          @include transform(rotate(0deg))
           background-position: 35% 80%
 
     &#kids
@@ -226,11 +225,11 @@ p
       overflow: hidden
 
       .text span
-        transition: padding-bottom 1s, padding-left 1s
+        transition: all 1s
 
         .rotator
           display: block
-          transition: transform 1s
+          transition: all 1s
 
       &:before
         content: ""
@@ -241,7 +240,7 @@ p
         left: -50%
         z-index: -2
         background: url("../img/dzieci_chlopiec.png") white no-repeat
-        transition: background-size 1s, background-position 1s
+        transition: all 1s
         background-position: 29% 69.5%
         background-size: 30%
 
@@ -254,7 +253,7 @@ p
         left: -50%
         z-index: -1
         background: url("../img/dzieci_dziewczynka.png") transparent no-repeat
-        transition: background-size 1s, background-position 1s
+        transition: all 1s
         background-position: 70% 64.5%
         background-size: 40%
 
@@ -263,7 +262,7 @@ p
           padding-bottom: 55%
           padding-left: 5%
           .rotator
-            transform: rotate(710deg)
+            @include transform(rotate(710deg))
         &:before
           background-position: 32% 64%
           background-size: 45%
@@ -274,12 +273,12 @@ p
     &#signup
       background: url("../img/zapisy.png") white no-repeat
       background-size: 90%
-      transition: background-size 1s ease-out, background-position 1s ease-out
+      transition: all 1s ease-out
       background-position: 170px 85px
 
       .text span
         padding-bottom: 0%
-        transition: padding-bottom 1s ease-out, padding-right 1s ease-out
+        transition: all 1s ease-out
 
       &:hover
         background-size: 80%
@@ -291,11 +290,11 @@ p
 
     &#teachers
       background: url("../img/lektor.png") white no-repeat
-      transition: background-size 1s, background-position 1s
+      transition: all 1s
       background-position: -40px 80px
 
       .text span
-        transition: padding-bottom 1s, padding-left 1s
+        transition: all 1s
 
       &:hover
         background-position: 20px 20px
@@ -315,30 +314,30 @@ p
         left: -50%
         z-index: -2
         background: url("../img/aparat.png") white no-repeat
-        transition: background-size 1s, background-position 1s, transform 1s
+        transition: all 1s
         background-position: 220px 240px
         background-size: 15%
 
       .text span
-        transition: padding-bottom 1s, padding-left 1s
+        transition: all 1s
 
       &:hover
         &:before
           background-size: 100%
           background-position: -50px 150px
-          transform: rotate(30deg)
+          @include transform(rotate(30deg))
 
         .text span
           padding-left: 50%
 
     &#contact
       background: url("../img/telefon.png") white no-repeat
-      transition: background-size 1s, background-position 1s
+      transition: all 1s
       background-position: -94px -10px
       background-size: 170%
 
       .text span
-        transition: padding-bottom 1s, padding-left 1s
+        transition: all 1s
 
       &:hover
         background-size: 50%
