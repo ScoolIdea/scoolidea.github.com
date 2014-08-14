@@ -95,6 +95,7 @@ p
       display: table
 
       span
+        padding: 30%
         display: table-cell
         vertical-align: middle
 
@@ -104,13 +105,13 @@ p
       transition: all 1s
 
       .text span
-        padding-bottom: 0%
         transition: all 1s
 
       &:hover
         background-size: 100%
 
         .text span
+          padding-top: 10%
           padding-bottom: 50%
 
     &#news
@@ -178,8 +179,10 @@ p
 
       &:hover
         .text span
+          padding-top: 10%
           padding-bottom: 50%
-          padding-left: 50%
+          padding-right: 0%
+          padding-left: 60%
 
         &:before
           top: -49%
@@ -209,8 +212,10 @@ p
 
       &:hover
         .text span
-          padding-bottom: 55%
-          padding-left: 40%
+          padding-top: 10%
+          padding-bottom: 50%
+          padding-right: 0%
+          padding-left: 60%
         &:before
           @include transform(rotate(0deg))
           background-position: 35% 80%
@@ -254,8 +259,10 @@ p
 
       &:hover
         .text span
-          padding-bottom: 55%
-          padding-left: 5%
+          padding-top: 10%
+          padding-bottom: 50%
+          padding-right: 25%
+          padding-left: 35%
           .rotator
             @include transform(rotate(710deg))
         &:before
@@ -272,7 +279,6 @@ p
       background-position: 170px 85px
 
       .text span
-        padding-bottom: 0%
         transition: all 1s ease-out
 
       &:hover
@@ -280,8 +286,10 @@ p
         background-position: 30px 20px
 
         .text span
-          padding-bottom: 70%
-          padding-right: 70%
+          padding-top: 10%
+          padding-bottom: 50%
+          padding-right: 0%
+          padding-left: 60%
 
     &#teachers
       background: url("../img/lektor.png") white no-repeat
@@ -295,8 +303,10 @@ p
         background-position: 20px 20px
 
         .text span
-          padding-bottom: 55%
-          padding-left: 40%
+          padding-top: 10%
+          padding-bottom: 50%
+          padding-right: 0%
+          padding-left: 60%
 
 
     &#gallery
@@ -323,7 +333,8 @@ p
           @include transform(rotate(30deg))
 
         .text span
-          padding-left: 50%
+          padding-right: 0%
+          padding-left: 60%
 
     &#contact
       background: url("../img/telefon.png") white no-repeat
@@ -339,4 +350,5 @@ p
         background-position: 60px 105px
 
         .text span
-          padding-bottom: 55%
+          padding-top: 25%
+          padding-bottom: 35%
