@@ -3,6 +3,8 @@
 @import fonts
 @import "compass/css3/transform"
 
+$background-gray: #f1f2f1
+
 html
   font-family: 'Museo' sans-serif
   height: 100%
@@ -15,7 +17,7 @@ body
   margin: 0px
   color: #8a8b8a
   text-align: center
-  background-color: #f1f2f1
+  background-color: white
 
 a
   color: #8a8b8a
@@ -99,7 +101,7 @@ p
     margin-top: 5px
   h3
     margin-top: 25px
-  p
+  p, form
     margin: 0px 0px 10px 0px
     font-size: 16px
     .cite
@@ -116,7 +118,8 @@ p
     width: 33%
     height: 220px
     float: left
-    margin: 1px 0px 0px 1px
+    border-left: 1px solid $background-gray
+    border-bottom: 1px solid $background-gray
     text-align: center
     font-size: 20px
     line-height: 1
