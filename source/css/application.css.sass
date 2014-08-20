@@ -1,9 +1,13 @@
 @import normalize
 @import boilerplate
 @import fonts
-@import "compass/css3/transform"
+@import compass/css3/transform
+@import compass/css3/border-radius
 
 $background-gray: #f1f2f1
+$green: #99C755
+$dark_green: #79a735
+$pink: #e5546a
 
 html
   font-family: 'Museo' sans-serif
@@ -40,10 +44,10 @@ a.current
   color: #c1c2c1
 
 .pink, a.pink
-  color: #e5546a
+  color: $pink
 
 .green
-  color: #99C755
+  color: $green
 
 .header_column
   position: fixed
@@ -120,6 +124,34 @@ p
     border: 1px solid #f1f2f1
   th
     font-weight: normal
+  form
+    div
+      padding: 5px 0px
+    label
+      float: left
+      width: 250px
+    input
+      width: 300px
+    textarea
+      width: 300px
+    .button
+      margin-left: 250px
+      width: 100px
+      padding: 10px 16px
+      font-size: 18px
+      line-height: 1.33
+      +border-radius(6px)
+      color: #fff
+      background-color: $green
+      display: inline-block
+      margin-bottom: 0
+      text-align: center
+      white-space: nowrap
+      vertical-align: middle
+      cursor: pointer
+      background-image: none
+      border: 1px solid transparent
+      border-color: $dark_green
 
 .tiles
   margin-left: 25%

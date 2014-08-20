@@ -3,7 +3,6 @@
     .back
       %a.pink{href: '/'} < powrót
     zapisy i informacje
-    = image_tag('img/logo.png', alt: 'scool', class: 'logo')
 
   %p
     nr kontaktowe:
@@ -14,36 +13,30 @@
   %h3 formularz zapisu
   %p 
     Wypełnienie formularza jest wstępną deklaracją udziału w kursie. Umowa uczestnictwa w kursie będzie można podpisać przed pierwszymi zajęciami. Po otrzymaniu wypełnionego formularza skontaktujemy się z Państwem telefonicznie.
-  %form{action:"MAILTO:ketak@example.com", method:"post", enctype:"text/plain"}
-    Imię i nazwisko ucznia:
-    %br
-    %input{type:"text", name:"name"}
-    %br
-    Wiek/klasa:
-    %br
-    %input{type:"text", name:"age"}
-    %br
-    Filia/szkoła:
-    %br
-    %input{type:"text", name:"school"}
-    %br
-    Nr kontaktowy:
-    %br
-    %input{type:"text", name:"phone"}
-    %br
-    Adres e-mail:
-    %br
-    %input{type:"text", name:"address"}
-    %br
-    Rodzaj kursu (patrz cennik):
-    %br
-    %input{type:"text", name:"type"}
-    %br
-    Uwagi:
-    %br
-    %input{type:"text", name:"comments"}
-    %br
-    %input{type:"submit", value:"Wyślij"}
+  %form{action:'MAILTO:ketak@example.com', method:'post', enctype:'text/plain'}
+    %div
+      %label{for: 'Imie i nazwisko ucznia'} Imię i nazwisko ucznia:
+      %input{type: 'text', name: 'Imie i nazwisko ucznia'}
+    %div
+      %label{for: 'Wiek/klasa'} Wiek/klasa:
+      %input{type: 'text', name: 'Wiek/klasa'}
+    %div
+      %label{for: 'Filia/szkola'} Filia/szkoła:
+      %input{type: 'text', name: 'Filia/szkola'}
+    %div
+      %label{for: 'Nr kontaktowy'} Nr kontaktowy:
+      %input{type: 'text', name: 'Nr kontaktowy'}
+    %div
+      %label{for: 'Adres e-mail'} Adres e-mail:
+      %input{type: 'text', name: 'Adres e-mail'}
+    %div
+      %label{for: 'Rodzaj kursu'} Rodzaj kursu (patrz cennik):
+      %input{type: 'text', name: 'Rodzaj kursu'}
+    %div
+      %label{for: 'Uwagi'} Uwagi:
+      %input{type: 'text', name: 'Uwagi'}
+    %div
+      %input.button{type: 'submit', value: 'Wyślij'}
 
   %p Zajęcia z młodzieżą i dorosłymi zaczynamy od testu sprawdzającego poziom zaawansowania języka obcego.
   %p.end Przy zapisie dzieci nie piszą testu sprawdzającego poziom zaawansowania języka obcego. Doświadczenie nauczyło nas, że przez stres, jego wyniki są zwykle niemiarodajne.  Grupy tworzymy w oparciu o wiek uczestników. Zwykle w grupie są tylko dzieci w tym samym wieku (np. z klasy II). Maksymalna różnica wieku dzieci w grupie to 2 lata (jeżeli pozwala na to poziom języka ucznia, co zawsze ustalamy z rodzicem i weryfikujemy w pierwszych tygodniach zajęć).
