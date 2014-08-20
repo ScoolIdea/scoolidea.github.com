@@ -52,10 +52,18 @@ a.current
 .header_column .top_text
   font-size: 14px
 
-.business_name
-  font-size: 100px
-  margin-top: 30px
-  margin-bottom: 10px
+.logo
+  position: relative
+  span
+    display: inline-block
+  .pink
+    position: relative
+    @include transform(rotate(-23deg) translate(-15%, 15%))
+
+  .header_column &
+    font-size: 100px
+    margin-top: 30px
+    margin-bottom: 10px
 
 .business_motto
   font-size: 17px
@@ -72,6 +80,12 @@ h4
 p
   margin: 3px
   padding: 0px
+
+.content
+  text-align: left
+  padding: 20px
+  margin-left: 25%
+  background-color: white
 
 .tiles
   margin-left: 25%
