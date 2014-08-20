@@ -49,18 +49,11 @@ a.current
   width: 25%
   background: white url("../img/mlodziez.png") no-repeat center 270px
 
-.header_column .top_text
-  font-size: 14px
-
-.logo
-  position: relative
-  span
-    display: inline-block
-  .pink
-    position: relative
-    @include transform(rotate(-23deg) translate(-15%, 15%))
-
-  .header_column &
+.header_column
+  .top_text
+    font-size: 14px
+  .logo
+    width: 75%
     font-size: 100px
     margin-top: 30px
     margin-bottom: 10px
@@ -87,6 +80,10 @@ p
   margin-left: 25%
   background-color: white
   border-left: 1px solid #f1f2f1
+
+  .logo
+    width: 135px
+    margin-top: -10px
 
   h1, h2, h3
     font-weight: normal
