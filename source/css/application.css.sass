@@ -167,14 +167,14 @@ p
       &:before
         content: ""
         position: absolute
-        width: 200%
-        height: 200%
-        top: -113%
-        left: -34%
+        width: 300%
+        height: 300%
+        top: -165%
+        left: -86%
         z-index: -1
         background: url("../img/moneta.png") white no-repeat center center
         transition: all 1s
-        background-size: 45%
+        background-size: 25%
         @include transform(rotate(90deg))
 
       &:hover
@@ -185,8 +185,8 @@ p
           padding-left: 60%
 
         &:before
-          top: -49%
-          left: -69%
+          top: -100%
+          left: -120%
           @include transform(rotate(0deg))
 
     &#adults
@@ -207,7 +207,7 @@ p
         background: url("../img/dorosli.png") white no-repeat
         transition: all 1s
         background-size: 50%
-        background-position: 56% 145%
+        background-position: 62% 200%
         @include transform(rotate(-30deg))
 
       &:hover
@@ -241,7 +241,7 @@ p
         z-index: -2
         background: url("../img/dzieci_chlopiec.png") white no-repeat
         transition: all 1s
-        background-position: 29% 69.5%
+        background-position: 29% 67%
         background-size: 30%
 
       &:after
@@ -254,7 +254,7 @@ p
         z-index: -1
         background: url("../img/dzieci_dziewczynka.png") transparent no-repeat
         transition: all 1s
-        background-position: 70% 64.5%
+        background-position: 70% 59%
         background-size: 40%
 
       &:hover
@@ -266,28 +266,27 @@ p
           .rotator
             @include transform(rotate(710deg))
         &:before
-          background-position: 32% 64%
+          background-position: 32% 58%
           background-size: 45%
         &:after
-          background-position: 70% 62%
+          background-position: 70% 55%
           background-size: 45%
 
     &#signup
       background: url("../img/zapisy.png") white no-repeat
-      background-size: 90%
+      background-size: 80%
       transition: all 1s ease-out
-      background-position: 170px 85px
+      background-position: 290% -400%
 
       .text span
         transition: all 1s ease-out
 
       &:hover
-        background-size: 80%
-        background-position: 30px 20px
+        background-position: 50% -80%
 
         .text span
-          padding-top: 10%
-          padding-bottom: 50%
+          padding-top: 5%
+          padding-bottom: 55%
           padding-right: 0%
           padding-left: 60%
 
