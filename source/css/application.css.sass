@@ -181,14 +181,14 @@ p
 
     &#idea
       background: url("../img/rece.png") white no-repeat center bottom
-      background-size: 70%
+      background-size: auto 70%
       transition: all 1s
 
       .text span
         transition: all 1s
 
       &:hover
-        background-size: 100%
+        background-size: auto 100%
 
         .text span
           padding-top: 10%
@@ -247,15 +247,12 @@ p
       &:before
         content: ""
         position: absolute
-        width: 300%
-        height: 300%
-        top: -165%
-        left: -86%
+        width: 100%
+        height: 100%
         z-index: -1
         background: url("../img/moneta.png") white no-repeat center center
         transition: all 1s
-        background-size: 25%
-        @include transform(rotate(90deg))
+        background-size: 90%
 
       &:hover
         .text span
@@ -267,7 +264,7 @@ p
         &:before
           top: -100%
           left: -120%
-          @include transform(rotate(0deg))
+          background-size: 70%
 
     &#adults
       position: relative
@@ -417,17 +414,17 @@ p
 
     &#contact
       background: url("../img/telefon.png") white no-repeat
+      background-position: center 65%
+      background-size: 300%
       transition: all 1s
-      background-position: -94px -10px
-      background-size: 170%
 
       .text span
         transition: all 1s
 
       &:hover
-        background-size: 50%
-        background-position: 60px 105px
+        background-position: center 65%
+        background-size: 100%
 
         .text span
-          padding-top: 25%
-          padding-bottom: 35%
+          padding-top: 15%
+          padding-bottom: 45%
