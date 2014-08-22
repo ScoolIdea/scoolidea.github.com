@@ -238,33 +238,23 @@ p
           background-position: 62% 43%
 
     &#pricing
-      position: relative
-      overflow: hidden
+      background: url("../img/moneta.png") white no-repeat
+      background-position: -220px bottom
+      transition: all 1s
+      background-size: 100%
 
       .text span
         transition: all 1s
 
-      &:before
-        content: ""
-        position: absolute
-        width: 100%
-        height: 100%
-        z-index: -1
-        background: url("../img/moneta.png") white no-repeat center center
-        transition: all 1s
-        background-size: 90%
-
       &:hover
+        background-position: 0px bottom
+        background-size: 50%
+
         .text span
           padding-top: 10%
           padding-bottom: 50%
           padding-right: 0%
           padding-left: 60%
-
-        &:before
-          top: -100%
-          left: -120%
-          background-size: 70%
 
     &#adults
       position: relative
@@ -278,13 +268,12 @@ p
         position: absolute
         width: 200%
         height: 200%
-        top: -50%
-        left: -50%
+        top: 20%
+        left: 20%
         z-index: -1
         background: url("../img/dorosli.png") white no-repeat
         transition: all 1s
-        background-size: 50%
-        background-position: 62% 200%
+        background-position: center center
         @include transform(rotate(-30deg))
 
       &:hover
@@ -294,8 +283,9 @@ p
           padding-right: 0%
           padding-left: 60%
         &:before
+          top: 0%
+          left: -50%
           @include transform(rotate(0deg))
-          background-position: 35% 80%
 
     &#kids
       position: relative
@@ -311,28 +301,28 @@ p
       &:before
         content: ""
         position: absolute
-        width: 200%
-        height: 200%
-        top: -50%
-        left: -50%
+        width: 100%
+        height: 100%
+        top: 0
+        left: 0
         z-index: -2
         background: url("../img/dzieci_chlopiec.png") white no-repeat
         transition: all 1s
-        background-position: 29% 67%
-        background-size: 30%
+        background-position: left bottom
+        background-size: 50%
 
       &:after
         content: ""
         position: absolute
-        width: 200%
-        height: 200%
-        top: -50%
-        left: -50%
+        width: 100%
+        height: 100%
+        top: 0
+        left: 0
         z-index: -1
         background: url("../img/dzieci_dziewczynka.png") transparent no-repeat
         transition: all 1s
-        background-position: 70% 59%
-        background-size: 40%
+        background-position: right bottom
+        background-size: 60%
 
       &:hover
         .text span
@@ -343,11 +333,9 @@ p
           .rotator
             @include transform(rotate(710deg))
         &:before
-          background-position: 32% 58%
-          background-size: 45%
+          background-size: 65%
         &:after
-          background-position: 70% 55%
-          background-size: 45%
+          background-size: 65%
 
     &#signup
       background: url("../img/zapisy.png") white no-repeat
