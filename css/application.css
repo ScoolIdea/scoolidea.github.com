@@ -1,0 +1,511 @@
+@import url(normalize.css);
+@import url(boilerplate.css);
+@import url(fonts.css);
+/* line 14, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+html {
+  font-family: "Museo" sans-serif;
+  height: 100%;
+  padding: 0px;
+  margin: 0px; }
+
+/* line 20, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+body {
+  min-height: 100%;
+  padding: 0px;
+  margin: 0px;
+  color: #8a8b8a;
+  text-align: center;
+  background-color: white; }
+
+/* line 28, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+a {
+  color: #8a8b8a;
+  text-decoration: none; }
+
+/* line 32, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+a:visited {
+  color: #8a8b8a;
+  text-decoration: none; }
+
+/* line 36, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+a:hover {
+  text-decoration: none; }
+
+/* line 39, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+a.current {
+  text-decoration: none; }
+
+/* line 42, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+.logo, .logo:hover {
+  text-decoration: none; }
+
+/* line 45, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+.light-gray {
+  color: #c1c2c1; }
+
+/* line 48, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+.pink, a.pink {
+  color: #e5546a; }
+
+/* line 51, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+.green {
+  color: #99c755; }
+
+/* line 54, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+.header_column {
+  position: fixed;
+  height: 100%;
+  width: 25%;
+  background: white url("../img/mlodziez.png") no-repeat center 370px;
+  overflow: hidden; }
+  /* line 61, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+  .header_column .top_text {
+    margin-top: 1.7em;
+    font-size: 16px; }
+  /* line 64, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+  .header_column .logo {
+    width: 70%;
+    font-size: 100px;
+    margin-top: 40px;
+    margin-bottom: 10px; }
+
+/* line 70, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+.business_motto {
+  font-size: 18px;
+  margin: 10px auto -30px;
+  width: 70%;
+  text-align: justify; }
+
+/* line 76, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+.business_motto:after {
+  content: "";
+  display: inline-block;
+  width: 100%; }
+
+/* line 81, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+.business_motto_languages {
+  font-size: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  width: 70%; }
+
+/* line 88, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+.business_motto_languages:after {
+  content: "";
+  display: inline-block;
+  width: 100%; }
+
+/* line 93, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+.facebook_button {
+  width: 10%;
+  position: absolute;
+  bottom: 5%;
+  left: 48%; }
+
+/* line 99, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+h4 {
+  font-size: 22px;
+  margin: 6px; }
+
+/* line 103, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+p {
+  margin: 3px;
+  padding: 0px; }
+
+/* line 107, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+.content {
+  text-align: left;
+  margin-left: 25%;
+  background-color: white;
+  border-left: 1px solid #f1f2f1;
+  padding: 1px 20px 100px; }
+  /* line 114, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+  .content .logo {
+    width: 135px;
+    margin-top: -10px; }
+  /* line 118, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+  .content h1, .content h2, .content h3 {
+    font-weight: normal; }
+  /* line 121, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+  .content h1 {
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 5px; }
+    /* line 125, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+    .content h1 .back {
+      float: right;
+      font-size: 25px; }
+  /* line 128, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+  .content h2 {
+    margin-top: 5px; }
+  /* line 130, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+  .content h3 {
+    margin-top: 25px; }
+  /* line 132, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+  .content p, .content form, .content table {
+    margin: 0px 0px 10px 0px;
+    font-size: 16px; }
+    /* line 135, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+    .content p .cite, .content form .cite, .content table .cite {
+      font-style: italic; }
+  /* line 138, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+  .content table {
+    width: 100%;
+    border-collapse: collapse; }
+    /* line 141, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+    .content table td, .content table th {
+      padding: 3px 5px;
+      width: 20%; }
+  /* line 144, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+  .content table, .content th, .content td {
+    border: 1px solid #f1f2f1; }
+  /* line 146, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+  .content th {
+    font-weight: normal; }
+  /* line 149, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+  .content form div {
+    padding: 5px 0px; }
+  /* line 151, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+  .content form label {
+    float: left;
+    width: 250px; }
+  /* line 154, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+  .content form input {
+    width: 300px; }
+  /* line 156, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+  .content form textarea {
+    width: 300px; }
+  /* line 158, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+  .content form .button {
+    margin-left: 250px;
+    width: 100px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-radius: 6px;
+    color: white;
+    background-color: #99c755;
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-color: #79a735; }
+
+/* line 177, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+.tiles {
+  position: absolute;
+  left: 25%;
+  height: 100%;
+  width: 75%; }
+  /* line 183, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+  .tiles a {
+    display: block;
+    width: 33%;
+    height: 33%;
+    float: left;
+    border-left: 1px solid #f1f2f1;
+    border-bottom: 1px solid #f1f2f1;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1;
+    position: relative;
+    overflow: hidden; }
+    /* line 196, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+    .tiles a .text {
+      width: 100%;
+      height: 100%;
+      display: table; }
+      /* line 201, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+      .tiles a .text span {
+        padding: 30%;
+        display: table-cell;
+        vertical-align: middle; }
+    /* line 206, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+    .tiles a#idea {
+      background: url("../img/rece.png") white no-repeat center bottom;
+      background-size: auto 70%;
+      transition: all 1s; }
+      /* line 211, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+      .tiles a#idea .text span {
+        transition: all 1s; }
+      /* line 214, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+      .tiles a#idea:hover {
+        background-size: auto 100%; }
+        /* line 217, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+        .tiles a#idea:hover .text span {
+          padding-top: 10%;
+          padding-bottom: 50%; }
+    /* line 222, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+    .tiles a#news .text span {
+      transition: all 1s; }
+    /* line 225, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+    .tiles a#news .questionmark_1 {
+      position: absolute;
+      width: 200%;
+      height: 200%;
+      top: -50%;
+      left: -50%;
+      z-index: -2;
+      background: url("../img/pytania.png") white no-repeat;
+      transition: all 1s;
+      background-size: 150px 150px;
+      background-position: 63% 45%;
+      -webkit-transform: rotate(30deg);
+      -moz-transform: rotate(30deg);
+      -ms-transform: rotate(30deg);
+      -o-transform: rotate(30deg);
+      transform: rotate(30deg); }
+    /* line 238, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+    .tiles a#news .questionmark_2 {
+      position: absolute;
+      width: 200%;
+      height: 200%;
+      top: -50%;
+      left: -50%;
+      z-index: -1;
+      background: url("../img/pytania.png") transparent no-repeat;
+      transition: all 1s;
+      background-size: 150px 150px;
+      background-position: 61% 43%;
+      -webkit-transform: rotate(210deg);
+      -moz-transform: rotate(210deg);
+      -ms-transform: rotate(210deg);
+      -o-transform: rotate(210deg);
+      transform: rotate(210deg); }
+    /* line 252, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+    .tiles a#news:hover .text span {
+      -webkit-transform: rotate(10deg);
+      -moz-transform: rotate(10deg);
+      -ms-transform: rotate(10deg);
+      -o-transform: rotate(10deg);
+      transform: rotate(10deg);
+      background-size: 75%; }
+    /* line 255, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+    .tiles a#news:hover .questionmark_1 {
+      -webkit-transform: rotate(40deg);
+      -moz-transform: rotate(40deg);
+      -ms-transform: rotate(40deg);
+      -o-transform: rotate(40deg);
+      transform: rotate(40deg);
+      background-size: 180px 180px;
+      background-position: 64% 45%; }
+    /* line 259, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+    .tiles a#news:hover .questionmark_2 {
+      -webkit-transform: rotate(220deg);
+      -moz-transform: rotate(220deg);
+      -ms-transform: rotate(220deg);
+      -o-transform: rotate(220deg);
+      transform: rotate(220deg);
+      background-size: 180px 180px;
+      background-position: 62% 43%; }
+    /* line 264, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+    .tiles a#pricing {
+      background: url("../img/moneta.png") white no-repeat;
+      background-position: -220px bottom;
+      transition: all 1s;
+      background-size: 100%; }
+      /* line 270, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+      .tiles a#pricing .text span {
+        transition: all 1s; }
+      /* line 273, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+      .tiles a#pricing:hover {
+        background-position: 0px bottom;
+        background-size: 50%; }
+        /* line 277, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+        .tiles a#pricing:hover .text span {
+          padding-top: 10%;
+          padding-bottom: 50%;
+          padding-right: 0%;
+          padding-left: 60%; }
+    /* line 283, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+    .tiles a#adults {
+      position: relative;
+      overflow: hidden; }
+      /* line 287, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+      .tiles a#adults .text span {
+        transition: all 1s; }
+      /* line 290, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+      .tiles a#adults:before {
+        content: "";
+        position: absolute;
+        width: 200%;
+        height: 200%;
+        top: 20%;
+        left: 20%;
+        z-index: -1;
+        background: url("../img/dorosli.png") white no-repeat;
+        transition: all 1s;
+        background-position: center center;
+        -webkit-transform: rotate(-30deg);
+        -moz-transform: rotate(-30deg);
+        -ms-transform: rotate(-30deg);
+        -o-transform: rotate(-30deg);
+        transform: rotate(-30deg); }
+      /* line 304, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+      .tiles a#adults:hover .text span {
+        padding-top: 10%;
+        padding-bottom: 50%;
+        padding-right: 0%;
+        padding-left: 60%; }
+      /* line 309, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+      .tiles a#adults:hover:before {
+        top: 0%;
+        left: -50%;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg); }
+    /* line 314, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+    .tiles a#kids {
+      position: relative;
+      overflow: hidden; }
+      /* line 318, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+      .tiles a#kids .text span {
+        transition: all 1s; }
+        /* line 321, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+        .tiles a#kids .text span .rotator {
+          display: block;
+          transition: all 1s; }
+      /* line 325, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+      .tiles a#kids:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: -2;
+        background: url("../img/dzieci_chlopiec.png") white no-repeat;
+        transition: all 1s;
+        background-position: left bottom;
+        background-size: 50%; }
+      /* line 338, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+      .tiles a#kids:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        background: url("../img/dzieci_dziewczynka.png") transparent no-repeat;
+        transition: all 1s;
+        background-position: right bottom;
+        background-size: 60%; }
+      /* line 352, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+      .tiles a#kids:hover .text span {
+        padding-top: 10%;
+        padding-bottom: 50%;
+        padding-right: 25%;
+        padding-left: 35%; }
+        /* line 357, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+        .tiles a#kids:hover .text span .rotator {
+          -webkit-transform: rotate(710deg);
+          -moz-transform: rotate(710deg);
+          -ms-transform: rotate(710deg);
+          -o-transform: rotate(710deg);
+          transform: rotate(710deg); }
+      /* line 359, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+      .tiles a#kids:hover:before {
+        background-size: 65%; }
+      /* line 361, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+      .tiles a#kids:hover:after {
+        background-size: 65%; }
+    /* line 365, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+    .tiles a#signup:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 30%;
+      right: -70%;
+      z-index: -2;
+      background: url("../img/zapisy.png") white no-repeat;
+      background-size: 80%;
+      transition: all 1s ease-out; }
+    /* line 377, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+    .tiles a#signup .text span {
+      transition: all 1s ease-out; }
+    /* line 381, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+    .tiles a#signup:hover:before {
+      top: 5%;
+      right: -10%; }
+    /* line 385, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+    .tiles a#signup:hover .text span {
+      padding-top: 5%;
+      padding-bottom: 55%;
+      padding-right: 0%;
+      padding-left: 60%; }
+    /* line 391, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+    .tiles a#teachers {
+      background: url("../img/lektor.png") white no-repeat;
+      transition: all 1s;
+      background-position: -40px 80px; }
+      /* line 396, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+      .tiles a#teachers .text span {
+        transition: all 1s; }
+      /* line 399, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+      .tiles a#teachers:hover {
+        background-position: 20px 20px; }
+        /* line 402, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+        .tiles a#teachers:hover .text span {
+          padding-top: 10%;
+          padding-bottom: 50%;
+          padding-right: 0%;
+          padding-left: 60%; }
+    /* line 410, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+    .tiles a#gallery:before {
+      content: "";
+      position: absolute;
+      width: 200%;
+      height: 200%;
+      top: -50%;
+      left: -50%;
+      z-index: -2;
+      background: url("../img/aparat.png") white no-repeat;
+      transition: all 1s;
+      background-position: 220px 240px;
+      background-size: 15%; }
+    /* line 423, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+    .tiles a#gallery .text span {
+      transition: all 1s; }
+    /* line 427, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+    .tiles a#gallery:hover:before {
+      background-size: 100%;
+      background-position: -50px 150px;
+      -webkit-transform: rotate(30deg);
+      -moz-transform: rotate(30deg);
+      -ms-transform: rotate(30deg);
+      -o-transform: rotate(30deg);
+      transform: rotate(30deg); }
+    /* line 432, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+    .tiles a#gallery:hover .text span {
+      padding-right: 0%;
+      padding-left: 60%; }
+    /* line 436, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+    .tiles a#contact {
+      background: url("../img/telefon.png") white no-repeat;
+      background-position: center 65%;
+      background-size: 300%;
+      transition: all 1s; }
+      /* line 442, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+      .tiles a#contact .text span {
+        transition: all 1s; }
+      /* line 445, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+      .tiles a#contact:hover {
+        background-position: center 65%;
+        background-size: 100%; }
+        /* line 449, /Users/krzysztofsiejkowski/Projects/scoolidea.github.com/source/css/application.css.sass */
+        .tiles a#contact:hover .text span {
+          padding-top: 15%;
+          padding-bottom: 45%; }
