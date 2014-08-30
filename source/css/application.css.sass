@@ -57,15 +57,25 @@ a.current
   width: $header_width
   background: white url("../img/mlodziez.png") no-repeat center 370px
   overflow: hidden
+  @media screen and (max-width: 500px)
+    height: 50%
+    position: absolute
+    width: 100%
+    background: white url("../img/mlodziez.png") no-repeat center 240px
 
   .top_text
     margin-top: 1.7em
     font-size: 16px
+    @media screen and (max-width: 500px)
+      visibility: hidden
   .logo
     width: $header_content_width
     font-size: 100px
     margin-top: 40px
     margin-bottom: 10px
+    @media screen and (max-width: 500px)
+      margin-top: -50px
+      margin-bottom: 0px
 
 .business_motto
   font-size: 18px
@@ -99,8 +109,8 @@ a.current
     width: 20%
     left: 42%
   @media screen and (max-width: 500px)
-    width: 30%
-    left: 38%
+    width: 10%
+    left: 48%
 
 h4
   font-size: 22px
@@ -116,6 +126,12 @@ p
   background-color: white
   border-left: 1px solid #f1f2f1
   padding: 1px 20px 100px
+  @media screen and (max-width: 500px)
+    left: 0%
+    width: 100%
+    top: 50%
+    position: absolute
+    margin-left: 0px
 
   .logo
     width: 135px
@@ -185,6 +201,10 @@ p
   left: $header_width
   height: 100%
   width: 75%
+  @media screen and (max-width: 500px)
+    left: 0%
+    width: 100%
+    top: 50%
 
   a
     display: block
