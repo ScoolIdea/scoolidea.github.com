@@ -1,9 +1,9 @@
 .content
   %h1
     .back
-      %a.pink{href: '/'} < powrót
+      %a.pink{:href => '/'} < powrót
     idea
-    = image_tag('img/logo.png', alt: 'scool', class: 'logo')
+    = image_tag('img/logo.png', :alt => 'scool', :class => 'logo')
 
   %h2 dobra szkoła językowa blisko domu
 
@@ -28,10 +28,10 @@
     %span.green grupy
   %p
     Bazując na wieloletnim doświadczeniu dopasowaliśmy czas trwania zajęć do wieku uczniów i ich potrzeb, dzięki czemu nasze kursy są „skrojone na miarę”. Dzieci uczą się z nami przez wiele lat. W 2011 roku cieszyliśmy się z maturalnych sukcesów uczniów, którzy uczyli się w scool od 8 roku życia! Młodzież i dorośli mogą korzystać z intensywnych kursów nastawionych na konkretne potrzeby (egzaminy, konwersacje, przygotowanie do wyjazdów zagranicznych, itd.). Więcej w zakładkach
-    %a.pink{href: 'dzieci.html'} dzieci
+    %a.pink{:href => 'dzieci.html'} dzieci
     oraz
     = succeed('.') do
-      %a.pink{href: 'mlodziezidorosli.html'} dorośli i młodzież
+      %a.pink{:href => 'mlodziezidorosli.html'} dorośli i młodzież
 
   %h3
     scool

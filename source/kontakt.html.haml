@@ -1,7 +1,7 @@
 .content
   %h1
     .back
-      %a.pink{href: '/'} < powrót
+      %a.pink{:href => '/'} < powrót
     kontakt
 
   %h3.green informacje i zapisy:
@@ -10,7 +10,7 @@
     %span.green 512 170 070
   %p 
     web:
-    %a{href: 'http://scool.edu.pl'} scool.edu.pl
+    %a{:href => 'http://scool.edu.pl'} scool.edu.pl
   %p
     w sprawach pilnych:
     %span.green 609 606 951
@@ -30,24 +30,24 @@
   %h3.green Napisz do nas:
   %p email: scool@scool.edu.pl
   %p lub
-  %form{action:'MAILTO:ketak@example.com', method:'post', enctype:'text/plain'}
+  %form{:action => 'MAILTO:ketak@example.com', :method => 'post', :enctype => 'text/plain'}
     %div
-      %label{for: 'Imie i nazwisko'} Imię i nazwisko:
-      %input{type:'text', name:'Imie i nazwisko'}
+      %label{:for => 'Imie i nazwisko'} Imię i nazwisko:
+      %input{:type => 'text', :name => 'Imie i nazwisko'}
     %div
-      %label{for: 'Filia/szkoła'} Filia/szkoła:
-      %input{type:'text', name:'Filia/szkola'}
+      %label{:for => 'Filia/szkoła'} Filia/szkoła:
+      %input{:type => 'text', :name => 'Filia/szkola'}
     %div
-      %label{for: 'Nr kontaktowy'} Nr kontaktowy:
-      %input{type:'text', name:'Nr kontaktowy'}
+      %label{:for => 'Nr kontaktowy'} Nr kontaktowy:
+      %input{:type => 'text', :name => 'Nr kontaktowy'}
     %div
-      %label{for: 'Adres e-mail'} Adres e-mail:
-      %input{type:'text', name:'Adres e-mail'}
+      %label{:for => 'Adres e-mail'} Adres e-mail:
+      %input{:type => 'text', :name => 'Adres e-mail'}
     %div
-      %label{for: 'Tresc zapytania'} Treść zapytania:
-      %textarea{name:'Tresc zapytania', rows: 5}
+      %label{:for => 'Tresc zapytania'} Treść zapytania:
+      %textarea{:name => 'Tresc zapytania', :rows => 5}
     %div
-      %input.button{type:'submit', value:'Wyślij'}
+      %input.button{:type => 'submit', :value => 'Wyślij'}
 
   %h3.green Prosimy o dokonywanie płatności na konto:
   %p mBank, Bankowość Detaliczna BRE Banku SA:
