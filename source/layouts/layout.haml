@@ -22,11 +22,16 @@
       %p.top_text.light-gray learn for love...
       = image_tag('img/logo.png', :alt => 'scool', :class => 'logo')
       %p.business_motto
-        szkoła językowa blisko domu
+        szkoła językowa
+        %span{:style => 'white-space:nowrap;'}
+          blisko domu
       %p.business_motto_languages
         %span.green angielski
-        i
-        %span.pink hiszpański
+        %span{:style => 'white-space:nowrap;'}
+          i
+          %span.pink hiszpański
+      %a{:href => 'https://www.facebook.com/pages/SCOOL/356298334528233', :alt => 'facebook', :target => '_blank'}
+        = image_tag('img/FB-f-Logo__blue_72.png', :alt => 'Zobacz nas na Facebook\'u!', :class => 'facebook_button')
     = yield
     = javascript_include_tag '//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js'
     = javascript_include_tag 'main.js'
