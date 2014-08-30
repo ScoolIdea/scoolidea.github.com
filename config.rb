@@ -73,12 +73,12 @@ end
 
 activate :deploy do |deploy|
   deploy.build_before = true
-  deploy.method = :git
-  deploy.branch = 'master'
-  deploy.remote = 'git@github.com:ScoolIdea/scoolidea.github.com.git'
-  #deploy.method   = :ftp
-  #deploy.host     = 'scool.kylos.pl'
-  #deploy.path     = '/'
-  #deploy.user     = 'mandaryn@scool.kylos.pl'
-  #deploy.password = 'abecadlo'
+  # deploy.method = :git
+  # deploy.branch = 'master'
+  # deploy.remote = 'git@github.com:ScoolIdea/scoolidea.github.com.git'
+  deploy.method   = :ftp
+  deploy.host     = 'scool.kylos.pl'
+  deploy.path     = '/'
+  deploy.user     = 'mandaryn@scool.kylos.pl'
+  deploy.password = 'abecadlo'
 end
