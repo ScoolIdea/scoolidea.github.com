@@ -1,21 +1,21 @@
 .content
   %h1
     .back
-      %a.pink{:href => '/'} < powrót
-    zapisy i informacje
+      %a.pink{:href => '/'} < wróć
+    zapisy i&nbsp;informacje
 
   %p
-    nr kontaktowe:
+    nr&nbsp;kontaktowe:
     = succeed(',') do
       %span.green 502 86 92 85
     %span.green 609 606 951
 
   %h3 formularz zapisu
   %p 
-    Wypełnienie formularza jest wstępną deklaracją udziału w kursie. Umowa uczestnictwa w kursie będzie można podpisać przed pierwszymi zajęciami. Po otrzymaniu wypełnionego formularza skontaktujemy się z Państwem telefonicznie.
+    Wypełnienie formularza jest wstępną deklaracją udziału w&nbsp;kursie. Umowa uczestnictwa w&nbsp;kursie będzie można podpisać przed pierwszymi zajęciami. Po&nbsp;otrzymaniu wypełnionego formularza skontaktujemy się z&nbsp;Państwem telefonicznie.
   %form{:action  => 'MAILTO:ketak@example.com', :method => 'post', :enctype => 'text/plain'}
     %div
-      %label{:for => 'Imie i nazwisko ucznia'} Imię i nazwisko ucznia:
+      %label{:for => 'Imie i nazwisko ucznia'} Imię i&nbsp;nazwisko ucznia:
       %input{:type => 'text', :name => 'Imie i nazwisko ucznia'}
     %div
       %label{:for => 'Wiek/klasa'} Wiek/klasa:
@@ -24,7 +24,7 @@
       %label{:for => 'Filia/szkola'} Filia/szkoła:
       %input{:type => 'text', :name => 'Filia/szkola'}
     %div
-      %label{:for => 'Nr kontaktowy'} Nr kontaktowy:
+      %label{:for => 'Nr kontaktowy'} Nr&nbsp;kontaktowy:
       %input{:type => 'text', :name => 'Nr kontaktowy'}
     %div
       %label{:for => 'Adres e-mail'} Adres e-mail:
@@ -38,5 +38,5 @@
     %div
       %input.button{:type => 'submit', :value => 'Wyślij'}
 
-  %p Zajęcia z młodzieżą i dorosłymi zaczynamy od testu sprawdzającego poziom zaawansowania języka obcego.
-  %p Przy zapisie dzieci nie piszą testu sprawdzającego poziom zaawansowania języka obcego. Doświadczenie nauczyło nas, że przez stres, jego wyniki są zwykle niemiarodajne.  Grupy tworzymy w oparciu o wiek uczestników. Zwykle w grupie są tylko dzieci w tym samym wieku (np. z klasy II). Maksymalna różnica wieku dzieci w grupie to 2 lata (jeżeli pozwala na to poziom języka ucznia, co zawsze ustalamy z rodzicem i weryfikujemy w pierwszych tygodniach zajęć).
+  %p Zajęcia z&nbsp;młodzieżą i&nbsp;dorosłymi zaczynamy od&nbsp;testu sprawdzającego poziom zaawansowania języka obcego.
+  %p Przy zapisie dzieci nie piszą testu sprawdzającego poziom zaawansowania języka obcego. Doświadczenie nauczyło nas, że&nbsp;przez stres, jego wyniki są&nbsp;zwykle niemiarodajne. Grupy tworzymy w&nbsp;oparciu o&nbsp;wiek uczestników. Zwykle w&nbsp;grupie są&nbsp;tylko dzieci w&nbsp;tym samym wieku (np.&nbsp;z&nbsp;klasy&nbsp;II). Maksymalna różnica wieku dzieci w&nbsp;grupie to&nbsp;2&nbsp;lata (jeżeli pozwala na&nbsp;to&nbsp;poziom języka ucznia, co&nbsp;zawsze ustalamy z&nbsp;rodzicem i&nbsp;weryfikujemy w&nbsp;pierwszych tygodniach zajęć).

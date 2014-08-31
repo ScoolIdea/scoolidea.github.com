@@ -1,7 +1,7 @@
 .content
   %h1
     .back
-      %a.pink{:href => '/'} < powrót
+      %a.pink{:href => '/'} < wróć
     kontakt
 
   %h3.green informacje i zapisy:
@@ -19,29 +19,33 @@
   %p
     %span.green SMULSKO
     (Retkinia)
-  %p ul. Slalomowa 25, wejście od ul. Smulskiej przy przedszkolu Mi Mundo
-  %p Mapa
+  %p ul.&nbsp;Slalomowa&nbsp;25, wejście od ul.&nbsp;Smulskiej przy przedszkolu Mi&nbsp;Mundo
+  %iframe{:style => 'width: 80%; height: 400px; border:0; margin-bottom: 40px',
+          :frameborder => '0',
+          :src => 'https://www.google.com/maps/embed/v1/place?q=Slalomowa%2025%2C%20Lodz%2C%20Poland&key=AIzaSyBttW1Mu2XTsmDuPO2e16bEA-rv_twlLbI'}
   %p
     %span.green OLECHÓW
     (Widzew)
-  %p ul. Wojewódzkiego 30 B, przy przedszkolu Kolorowe Kredki
-  %p Mapa
+  %p ul.&nbsp;Wojewódzkiego&nbsp;30&nbsp;B, przy przedszkolu Kolorowe&nbsp;Kredki
+  %iframe{:style => 'width: 80%; height: 400px; border:0',
+            :frameborder => '0',
+            :src => 'https://www.google.com/maps/embed/v1/place?q=Wojew%C3%B3dzkiego%2030%20B%2C%20Lodz%2C%20Poland&key=AIzaSyBttW1Mu2XTsmDuPO2e16bEA-rv_twlLbI'}
 
   %h3.green Napisz do nas:
-  %p email: scool@scool.edu.pl
+  %p email:&nbsp;scool@scool.edu.pl
   %p lub
   %form{:action => 'MAILTO:ketak@example.com', :method => 'post', :enctype => 'text/plain'}
     %div
-      %label{:for => 'Imie i nazwisko'} Imię i nazwisko:
+      %label{:for => 'Imie i nazwisko'} Imię&nbsp;i&nbsp;nazwisko:
       %input{:type => 'text', :name => 'Imie i nazwisko'}
     %div
       %label{:for => 'Filia/szkoła'} Filia/szkoła:
       %input{:type => 'text', :name => 'Filia/szkola'}
     %div
-      %label{:for => 'Nr kontaktowy'} Nr kontaktowy:
+      %label{:for => 'Nr kontaktowy'} Nr&nbsp;kontaktowy:
       %input{:type => 'text', :name => 'Nr kontaktowy'}
     %div
-      %label{:for => 'Adres e-mail'} Adres e-mail:
+      %label{:for => 'Adres e-mail'} Adres&nbsp;e-mail:
       %input{:type => 'text', :name => 'Adres e-mail'}
     %div
       %label{:for => 'Tresc zapytania'} Treść zapytania:
@@ -49,7 +53,7 @@
     %div
       %input.button{:type => 'submit', :value => 'Wyślij'}
 
-  %h3.green Prosimy o dokonywanie płatności na konto:
+  %h3.green Prosimy o&nbsp;dokonywanie płatności na&nbsp;konto:
   %p mBank, Bankowość Detaliczna BRE Banku SA:
   %p 29 1140 2004 0000 3902 3552 0638
   %p SCOOL Kursy Językowe Katarzyna Kędziora
@@ -59,10 +63,11 @@
   %h3.green Tytuł przelewu:
   %p Bardzo prosimy, żeby każdy przelew zawierał następujące informacje:
   %ol
-    %li Imię i nazwisko ucznia
-    %li Filia i nazwa kursu lub nr szkoły i klasa
-    %li Zaznaczenie okresu, za który dokonywana jest płatność
+    %li Imię i&nbsp;nazwisko ucznia
+    %li Filia i&nbsp;nazwa kursu lub nr&nbsp;szkoły i&nbsp;klasa
+    %li Zaznaczenie okresu, za&nbsp;który dokonywana jest płatność
 
   %h3.green Przykłady:
-  %p Zosia Nowak, Olechów, Matura podstawowa, I semestr, 2. Rata
-  %p Jacek Kowalski, SP 64, klasa III, II semestr
+  %ul
+  %li Zosia Nowak, Olechów, Matura podstawowa, I&nbsp;semestr, 2.&nbsp;Rata
+  %li Jacek Kowalski, SP&nbsp;64, klasa&nbsp;III, II&nbsp;semestr
