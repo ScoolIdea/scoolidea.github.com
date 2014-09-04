@@ -80,5 +80,5 @@ activate :deploy do |deploy|
   deploy.host     = 'scool.kylos.pl'
   deploy.path     = '/'
   deploy.user     = 'mandaryn@scool.kylos.pl'
-  deploy.password = 'abecadlo'
+  deploy.password = ENV["SCOOL_PASSWORD"]
 end
